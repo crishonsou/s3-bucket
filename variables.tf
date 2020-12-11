@@ -1,4 +1,6 @@
-variable "name" {}
+variable "name" {
+  default = "bucket-cluster-web-app-ec"
+}
 
 variable "environment" {
   default = "test"
